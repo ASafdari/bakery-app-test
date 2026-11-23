@@ -4,17 +4,17 @@
      Keep it under ~40 lines. Claude updates it when phase, decisions or next step
      change. -->
 
-- **Phase:** idea
+- **Phase:** spec
 - **State:** in progress
-- **Feature:** TBD · spec `docs/spec.md` (not written) · design `docs/design.md` (not written)
-- **Approvals:** Spec pending · UI pending · Design pending · Test report pending
+- **Feature:** Bakery pre-orders · spec `docs/spec.md` · design `docs/design.md` (not written)
+- **Approvals:** Spec approved 2026-11-23 · UI pending · Design pending · Test report pending
 - **Slice PRs:** none
-- **Next step:** Draft `docs/spec.md` for the first feature.
+- **Next step:** `/ui-design` for the customer order page, counter view and admin pages.
 
 ## Open decisions
-- What the bakery app does and who uses it (owner: repo owner, blocks: spec)
-- Stack: which of the usual stacks this repo uses (owner: repo owner, blocks: design)
+- None. All spec questions resolved 2026-11-23.
 
 ## Notes that must survive
 - Repo config is bootstrapped without commands. Re-run `/repo-setup` once the first
   slice builds (adds allow rules, Stop hook, CI, branch protection).
+- Spec work is on branch `docs/preorders-spec` (off `main` at 854186a), uncommitted.
